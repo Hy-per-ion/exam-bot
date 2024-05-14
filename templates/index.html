@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Bot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Exam Bot</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="image-upload" accept="image/*" />
+        <button type="submit">Upload and Analyze</button>
+    </form>
+    <div id="result"></div>
+    <script src="static/styles.css"></script>
+</body>
+</html>
